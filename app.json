@@ -1,0 +1,17 @@
+{
+    "name": "audioemotiondetector",
+    "description": "Your app description",
+    "repository": "https://github.com/goaldaika/audio_emotion_detection",
+    "keywords": ["django", "heroku", "python"],
+    "env": {
+        "DJANGO_SETTINGS_MODULE": "yourapp.settings",
+        "PYTHONPATH": "/app/user/yourapp:$PYTHONPATH"
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python:3.10.4"
+        }
+    ],
+    "stack": "heroku-20"
+}
